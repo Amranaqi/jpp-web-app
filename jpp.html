@@ -1,16 +1,71 @@
-<main class="jpp-members">
-  <div class="member-card">
-    <img src="81d369ce-e3ce-4f96-ad33-af08017b5272.jpg" alt="MUHAMMAD SYFUL AZVEEN BIN MUHAMMAD JOSEPH " style="width: 350px; height: auto;">
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JPP Members Poster</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-    <p><strong style="font-size: 20px" > MUHAMMAD SYFUL AZVEEN BIN MUHAMMAD JOSEPH</strong><br>YANG DI PERTUA</p>
-  </div>
-  <div class="member-card">
-    <img src="090b17dc-3906-4c1a-aa5a-8fbdb8e1b211.jpg" alt="VIBHUSHAN A/L MUTHURAMU" style="width: 350px; height: auto;">
-    <p><strong style="font-size: 20px">VIBHUSHAN A/L MUTHURAMU</strong><br>NAIB YANG DI PERTUA</p>
-  </div>
-  <div class="member-card">
-    <img src="a38ba44c-bce6-4e8d-9394-12efd52fed27.jpg" alt="MUHAMMAD FAKRUL NAIM BIN JAAFAR" style="width: 350px; height: auto;">
-    <p><strong style="font-size: 20px">MUHAMMAD FAKRUL NAIM BIN JAAFAR</strong><br>SETIAUSAHA KEHORMAT</p>
-  </div>
-</main>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .jpp-members {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      gap: 30px;
+      padding: 20px;
+      text-align: center;
+      flex-wrap: wrap; /* Optional: allows wrapping if screen is too small */
+    }
+
+    .member-card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 350px;
+    }
+
+    .member-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .member-card p {
+      margin-top: 10px;
+    }
+
+    .member-card strong {
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="jpp-members">
+    <div class="member-card">
+      <img src="81d369ce-e3ce-4f96-ad33-af08017b5272.jpg" alt="MUHAMMAD SYFUL AZVEEN BIN MUHAMMAD JOSEPH">
+      <p><strong>MUHAMMAD SYFUL AZVEEN BIN MUHAMMAD JOSEPH</strong><br>YANG DI PERTUA</p>
+    </div>
+    <div class="member-card">
+      <img src="090b17dc-3906-4c1a-aa5a-8fbdb8e1b211.jpg" alt="VIBHUSHAN A/L MUTHURAMU">
+      <p><strong>VIBHUSHAN A/L MUTHURAMU</strong><br>NAIB YANG DI PERTUA</p>
+    </div>
+    <div class="member-card">
+      <img src="a38ba44c-bce6-4e8d-9394-12efd52fed27.jpg" alt="MUHAMMAD FAKRUL NAIM BIN JAAFAR">
+      <p><strong>MUHAMMAD FAKRUL NAIM BIN JAAFAR</strong><br>SETIAUSAHA KEHORMAT</p>
+    </div>
+  </main>
+
+</body>
+</html>
